@@ -2,7 +2,6 @@ applications:
 - path: .
   memory: 512M
   instances: 1
-  domain: mybluemix.net
   name: LanguageTranslatorLT
   host: LanguageTranslatorLT
   disk_quota: 1024M
@@ -11,7 +10,7 @@ applications:
   - LanguageTranslatorLT-LanguageTranslator
   env:
     NODE_RED_STORAGE_NAME: LanguageTranslatorLT-cloudantNoSQLDB
-  declared-services:
+declared-services:
   LanguageTranslatorLT-cloudantNoSQLDB:
     label: cloudantNoSQLDB
     plan: Shared
