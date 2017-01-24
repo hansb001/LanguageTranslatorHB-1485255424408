@@ -13,4 +13,4 @@ applications:
 declared-services:
   LanguageTranslatorLT-cloudantNoSQLDB:
     label: cloudantNoSQLDB
-    plan: Shared
+    plan: Lite
