@@ -3,8 +3,16 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: LanguageTranslatorHB2
-  host: LanguageTranslatorHB2
+  name: LanguageTranslatorLT
+  host: LanguageTranslatorLT
   disk_quota: 1024M
   services:
-  - LanguageTranslatorHB2-cloudantNoSQLDB
+  - LanguageTranslatorLT-cloudantNoSQLDB
+  
+  declared-services:
+  nodeREDCloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Shared
+  Language Translator
+    label: LanguageTranslatorLT
+    plan: Advanced
