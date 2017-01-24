@@ -15,6 +15,3 @@ applications:
   LanguageTranslatorLT-cloudantNoSQLDB:
     label: cloudantNoSQLDB
     plan: Shared
-  LanguageTranslatorLT-LanguageTranslator:
-    label: Language_Translator
-    plan: Advanced
